@@ -43,6 +43,8 @@ ___
 
 3. Data cleaning:
 + I renamed and changed the types of several columns to improve understanding.
+
+
 a.	Dname -> Nome_Departamento
 
 
