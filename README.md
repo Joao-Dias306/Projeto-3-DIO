@@ -44,33 +44,83 @@ ___
 3. Data cleaning:
 + I renamed and changed the types of several columns to improve understanding.
 a.	Dname -> Nome_Departamento
+
+
 b.	Dnumber, Dno, Dnum -> Numero_departamento (Mudei o tipo para Texto)
+
+
 c.	Mgr_ssn, Super_ssn -> Numero_da_carteira_Gerente
+
+
 d.	Essn, Ssn -> Numero_da_carteira
+
+
 e.	Mgr_start_date - > Data_Inicio_Gerente
+
+
 f.	Dept_create_date -> Data_Criacao_Departamento
+
+
 g.	Sex -> Genero
+
+
 h.	Dependent_name - > Nome_do_dependente
+
+
 i.	Bdate -> Data_de_aniversario
+
+
 j.	Relationship -> Relacao
+
+
 k.	Dlocation -> Localizacao_Departamento
+
+
 l.	Fname -> Nome
+
+
 m.	Minit -> Inicial_nome_meio
+
+
 n.	Lname -> Sobrenome
+
+
 o.	Address - > Endereco 
+
+
 p.	Salary -> Salario (Mudei o tipo para Decimal Fixo)
+
+
 q.	Pname -> Nome_Projetos 
+
+
 r.	Pnumber, Pno -> Numero_Projetos (Mudei o tipo para Texto)
+
+
 s.	Plocation -> Local_Projetos
+
+
 t.	Hours -> Horas
 
 4. Standardization of table names:
 + I renamed the tables to make them easier to read.
+
+
 a.	azure_company department -> Departamentos
+
+
 b.	azure_company dependente -> Dependentes 
+
+
 c.	azure_company dept_locations -> Localizacao_Departamentos
+
+
 d.	azure_company employee -> Funcionarios 
+
+
 e.	azure_company Project -> Projetos
+
+
 f.	azure_company works_on -> Horas_Trabalhadas
 
 5. Handling null values:
@@ -148,35 +198,87 @@ ___
 
 3.	Limpeza de dados:
 + Renomeei e alterei os tipos de várias colunas para melhorar a compreensão.
+
+
 a.	Dname -> Nome_Departamento
+
+
 b.	Dnumber, Dno, Dnum -> Numero_departamento (Mudei o tipo para Texto)
+
+
 c.	Mgr_ssn, Super_ssn -> Numero_da_carteira_Gerente
+
+
 d.	Essn, Ssn -> Numero_da_carteira
+
+
 e.	Mgr_start_date - > Data_Inicio_Gerente
+
+
 f.	Dept_create_date -> Data_Criacao_Departamento
+
+
 g.	Sex -> Genero
+
+
 h.	Dependent_name - > Nome_do_dependente
+
+
 i.	Bdate -> Data_de_aniversario
+
+
 j.	Relationship -> Relacao
+
+
 k.	Dlocation -> Localizacao_Departamento
+
+
 l.	Fname -> Nome
+
+
 m.	Minit -> Inicial_nome_meio
+
+
 n.	Lname -> Sobrenome
+
+
 o.	Address - > Endereco 
+
+
 p.	Salary -> Salario (Mudei o tipo para Decimal Fixo)
+
+
 q.	Pname -> Nome_Projetos 
+
+
 r.	Pnumber, Pno -> Numero_Projetos (Mudei o tipo para Texto)
+
+
 s.	Plocation -> Local_Projetos
+
+
 t.	Hours -> Horas
 
 
 4.	Padronização de nomes de tabelas:
 + Renomeei as tabelas para facilitar a leitura.
+
+
 a.	azure_company department -> Departamentos
+
+
 b.	azure_company dependente -> Dependentes 
+
+
 c.	azure_company dept_locations -> Localizacao_Departamentos
+
+
 d.	azure_company employee -> Funcionarios 
+
+
 e.	azure_company Project -> Projetos
+
+
 f.	azure_company works_on -> Horas_Trabalhadas
 
 
